@@ -11,7 +11,7 @@ public class HeyController {
 
     @GetMapping("/hey")
     public ResponseEntity<String> sayHey(@PathVariable Long id) {
-        return new ResponseEntity<>("Hey, tutorial", HttpStatus.OK);
+        return new ResponseEntity<>("Hey, tutoghhhhrial", HttpStatus.OK);
     }
 
 }
