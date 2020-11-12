@@ -3,7 +3,7 @@ CREATE SEQUENCE IF NOT EXISTS hibernate_sequence start 1000 increment 1;
 CREATE TABLE IF NOT EXISTS Shop
 (
     id            serial PRIMARY KEY,
-    name          varchar(300) NOT NULL,
+    name          varchar(255) NOT NULL,
     creation_date date         NOT NULL,
     month_profit  integer,
     status        varchar(20)  NOT NULL DEFAULT 'OPEN'
