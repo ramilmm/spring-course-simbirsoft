@@ -1,0 +1,2 @@
+ALTER TABLE Shop
+ALTER COLUMN name TYPE varchar(300);
